@@ -77,7 +77,7 @@ function edges = marr_hildreth_edge_detection(img, sigma, threshold)
 end
 
 
-img = imread('../slike/headCT.tif');
+img = imread('images/headCT.tif');
 
 edges = marr_hildreth_edge_detection(img, 3, .1);
 
@@ -89,5 +89,6 @@ title('Original');
 subplot(1, 2, 2);
 imshow(edges);
 title('Marr-Hildreth (sigma = 3, zero-crossing threshold = 10%)');
+
 
 
