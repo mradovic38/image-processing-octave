@@ -132,8 +132,8 @@ Two outputs are shown:
 
 This implementation gives insight into scalable transforms, foundational to applications in image compression (e.g., JPEG 2000), denoising, and feature extraction.
 
-<img src="https://github.com/user-attachments/assets/9b1dc0be-7dfe-43ef-8bc9-cec3da3ba2ae" width="30%">
-<img src="https://github.com/user-attachments/assets/009fd922-eb9d-4bbc-ba33-e8b12ec421cf" width="30%">
+<img src="https://github.com/user-attachments/assets/9b1dc0be-7dfe-43ef-8bc9-cec3da3ba2ae" width="45%">
+<img src="https://github.com/user-attachments/assets/009fd922-eb9d-4bbc-ba33-e8b12ec421cf" width="45%">
 
 
 ## 📄 License
