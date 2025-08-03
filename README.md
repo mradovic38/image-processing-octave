@@ -36,6 +36,7 @@ To validate our implementation, we compare its results with Octave's built-in `i
 Multiple sigma values (`σ = 1, 3, 7`) are used to observe how the degree of blurring increases with larger Gaussian kernels. A visual comparison is provided using subplots showing the original image and the outputs for different sigmas.
 
 This exercise reinforces understanding of convolution, kernel design, image padding, and Gaussian filtering fundamentals.
+
 <img src="https://github.com/user-attachments/assets/384fc8c4-ecad-4d95-b992-5974fe7ad0ed" width="50%">
 
 ### 2. Marr-Hildreth Edge Detection
@@ -49,6 +50,7 @@ This script implements the Marr-Hildreth edge detection technique, which is base
 This implementation explores vertical, horizontal, and both diagonal directions when detecting zero-crossings, ensuring robustness to different edge orientations.
 
 The result is a binary edge map showing where significant transitions occur. This approach is inspired by early visual processing models in the human visual system, making it both biologically plausible and computationally effective.
+
 <img src="https://github.com/user-attachments/assets/8ade17d2-aadf-476f-a5a7-799e32cb6e37" width="50%">
 
 ### 3. Hybrid Image Generation (Low + High Frequencies)
