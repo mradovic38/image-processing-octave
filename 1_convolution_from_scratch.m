@@ -43,7 +43,7 @@ function filtered_img = f_linFilt(img, kernel)
     end
 end
 
-img = imread('../slike/testpattern1024.tif');
+img = imread('images/testpattern1024.tif');
 
 sigma_vals = [1, 3, 7];
 
@@ -79,4 +79,5 @@ for i = 1:length(sigma_vals)
     imshow(filtered_img);
     title(['Gaussian Filter (sigma = ', num2str(sigma), ')']);
 end
+
 
